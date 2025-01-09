@@ -1,0 +1,14 @@
+nota_1
+A evolução da solução ao longo do tempo:
+x < -10:  difunde-se gradualmente para a direita, espalhando-se pelo domínio.
+10 <= x <= 20: também se difunde, mas com uma taxa menor, pois a concentração inicial é menor.
+A região com baixa concentração inicial (u = 0) começará a aumentar devido ao termo de reação, à medida que a solução se difunde para essa região.
+Acredito que a solução tende a se estabilizar em forma de onda viajante, que se propaga para a direita com uma certa velocidade.
+A forma exata da onda e a velocidade de propagação dependem dos parâmetros da equação (D, v e r).
+ 
+nota_2:
+O termo de difusão faz com que a solução se espalhe ao longo do domínio. As áreas com alta concentração de u tendem a se espalhar para áreas com baixa concentração.
+O termo de reação  representa o crescimento ou decaimento da solução. Isso significa que a solução tende a crescer em regiões onde u é pequeno e a se estabilizar em torno de u = 1 em regiões onde u é grande.
+Como v = 0, não há advecção nesse caso.  Quando eu aumento o valor de v, a solução se move mais rapidamente para a direita ao longo do tempo.
+Aumentando D para 2 , a onda viajante se propaga mais rápido e a largura da onda é maior. Para D> 3 não converge, só converge se "alargar" a tolerância.
+Aumentando r=1.5, a solução cresce mais rápido onde u é pequeno, r>=2 dá instabilidade, com crescimento exponencial e por isso a solução não converge.
